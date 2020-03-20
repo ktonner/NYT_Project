@@ -1,0 +1,25 @@
+.navbar{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    height: 150px;
+    
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-family: Oswald, sans-serif;
+    text-emphasis: bold;
+}
+
+
+.navbackground{
+    background-color: blue;
+    
+}
+h1 {
+    font-size: medium;
+    
+   
+}
+ 
