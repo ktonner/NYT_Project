@@ -12,6 +12,7 @@ $.ajax({
 
     //search button needs listener
     $("#search-btn").on("click", function(){
+        event.preventDefault();
     //number of records limits search results
     for (var i = 0; i < numRecords.length; index++) {
         
@@ -23,7 +24,7 @@ $.ajax({
     var startYear = $("#exampleFormControlTextarea1").val()
     
     //if end year has input, filter search results 
-    var endYear = $("#exampleFormControlTextarea2").val(response)
+    var endYear = $("#exampleFormControlTextarea2").val().trim();
     //display search results in top articles section
     var articleDiv = $("<div>") 
     $("searchResults").append(articleDiv);
